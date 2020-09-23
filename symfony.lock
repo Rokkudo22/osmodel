@@ -1,4 +1,19 @@
 {
+    "doctrine/inflector": {
+        "version": "1.4.3"
+    },
+    "friendsofsymfony/rest-bundle": {
+        "version": "2.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "2.2",
+            "ref": "cad41ef93d6150067ae2bb3c7fd729492dff6f0a"
+        }
+    },
+    "paragonie/random_compat": {
+        "version": "v9.99.99"
+    },
     "php": {
         "version": "7.4"
     },
@@ -94,6 +109,9 @@
     "symfony/mime": {
         "version": "v4.3.11"
     },
+    "symfony/polyfill-ctype": {
+        "version": "v1.18.1"
+    },
     "symfony/polyfill-intl-idn": {
         "version": "v1.18.1"
     },
@@ -101,6 +119,9 @@
         "version": "v1.18.1"
     },
     "symfony/polyfill-mbstring": {
+        "version": "v1.18.1"
+    },
+    "symfony/polyfill-php70": {
         "version": "v1.18.1"
     },
     "symfony/polyfill-php72": {
@@ -123,6 +144,9 @@
             "config/routes.yaml"
         ]
     },
+    "symfony/security-core": {
+        "version": "v4.3.11"
+    },
     "symfony/service-contracts": {
         "version": "v1.1.9"
     },
@@ -131,5 +155,11 @@
     },
     "symfony/yaml": {
         "version": "v4.3.11"
+    },
+    "willdurand/jsonp-callback-validator": {
+        "version": "v1.1.0"
+    },
+    "willdurand/negotiation": {
+        "version": "v2.3.1"
     }
 }
