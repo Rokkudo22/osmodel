@@ -31,9 +31,7 @@
             "App\\Tests\\": "tests/"
         }
     },
-    "replace": {
-        "symfony/polyfill-php71": "*"
-    },
+    "replace": {},
     "scripts": {
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
