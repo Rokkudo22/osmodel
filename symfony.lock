@@ -26,9 +26,6 @@
             "ref": "cad41ef93d6150067ae2bb3c7fd729492dff6f0a"
         }
     },
-    "pagerfanta/pagerfanta": {
-        "version": "v2.4.1"
-    },
     "paragonie/random_compat": {
         "version": "v9.99.99"
     },
@@ -92,9 +89,6 @@
     },
     "symfony/dependency-injection": {
         "version": "v4.3.11"
-    },
-    "symfony/deprecation-contracts": {
-        "version": "v2.2.0"
     },
     "symfony/dotenv": {
         "version": "v4.3.11"
