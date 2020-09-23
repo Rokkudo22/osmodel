@@ -4,8 +4,6 @@ fos_rest:
         enabled: true
     view:
         formats: { json: true, xml: false, rss: false }
-    serializer:
-        serialize_null: true
     format_listener:
         rules:
             - { path: ^/, priorities: ['json'], fallback_format: 'json' }
