@@ -12,7 +12,6 @@ services:
     App\Manager\OSModelManager:
         arguments:
             - '@Doctrine\Common\Persistence\ObjectManager'
-            - '@App\Client\APIClient'
             - 'App\Entity\OSModel'
     App\Client\APIClient:
         arguments:

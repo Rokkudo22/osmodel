@@ -2,7 +2,6 @@
 
 namespace App\Manager;
 
-use App\Client\APIClient;
 use Doctrine\Persistence\ObjectManager;
 use Doctrine\Persistence\ObjectRepository;
 use Pagerfanta\Adapter\DoctrineORMAdapter;
@@ -18,19 +17,13 @@ abstract class AbstractManager
     private $objectManager;
 
     /**
-     * @var APIClient
-     */
-    private $client;
-
-    /**
      * @var string
      */
     private $class;
 
-    public function __construct(ObjectManager $objectManager, APIClient $client, string $class)
+    public function __construct(ObjectManager $objectManager, string $class)
     {
         $this->objectManager = $objectManager;
-        $this->client = $client;
         $this->class = $class;
     }
 
@@ -52,11 +45,6 @@ abstract class AbstractManager
         }
 
         return $this->class;
-    }
-
-    public function list(): ?array
-    {
-        return $this->client->list($this->index);
     }
 
     protected function getRepository(): ObjectRepository
