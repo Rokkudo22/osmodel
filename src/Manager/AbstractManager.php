@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Manager;
+namespace OSModel\Manager;
 
 use Doctrine\Persistence\ObjectManager;
 use Doctrine\Persistence\ObjectRepository;

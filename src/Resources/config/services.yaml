@@ -12,7 +12,7 @@ services:
     App\Manager\OSModelManager:
         arguments:
             - '@Doctrine\Common\Persistence\ObjectManager'
-            - 'App\Entity\OSModel'
+            - 'OSModel\Entity\OSModel'
     App\Client\APIClient:
         arguments:
             - '%env(DOMAIN_OS_API)%'

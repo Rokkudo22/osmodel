@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Manager;
+namespace OSModel\Manager;
 
 class OSModelManager extends AbstractManager
 {

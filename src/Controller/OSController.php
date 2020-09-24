@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller;
+namespace OSModel\Controller;
 
 use App\Entity\OSModel;
 use App\Manager\OSModelManager;
