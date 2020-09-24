@@ -2,7 +2,7 @@
 
 namespace OSModel\Repository;
 
-use App\Entity\OSModel;
+use OSModel\Entity\OSModel;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 use Doctrine\ORM\QueryBuilder;

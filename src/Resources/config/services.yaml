@@ -3,16 +3,13 @@ services:
     _defaults:
         autowire: true
         autoconfigure: true
-    App\Controller\:
+    OSModel\Controller\:
         resource: '../../Controller'
         tags: ['controller.service_arguments']
-    App\Repository\:
+    OSModel\Repository\:
         resource: '../../Repository'
         tags: ['doctrine.repository_service']
-    App\Manager\OSModelManager:
+    OSModel\Manager\OSModelManager:
         arguments:
             - '@Doctrine\Common\Persistence\ObjectManager'
             - 'OSModel\Entity\OSModel'
-    App\Client\APIClient:
-        arguments:
-            - '%env(DOMAIN_OS_API)%'

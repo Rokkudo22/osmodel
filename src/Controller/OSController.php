@@ -2,8 +2,8 @@
 
 namespace OSModel\Controller;
 
-use App\Entity\OSModel;
-use App\Manager\OSModelManager;
+use OSModel\Entity\OSModel;
+use OSModel\Manager\OSModelManager;
 use FOS\RestBundle\Controller\AbstractFOSRestController;
 use FOS\RestBundle\Controller\Annotations as Rest;
 use FOS\RestBundle\Request\ParamFetcherInterface;
